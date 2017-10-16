@@ -26,7 +26,7 @@ public class Proj1 {
             o = o - i;
             l = l + " + " + i;
             nums.add(o+l);
-        }while(o>1);
+        }while(o>i);
 
         if(i < n/2){
             splitter(n, n, nums, "", i);
